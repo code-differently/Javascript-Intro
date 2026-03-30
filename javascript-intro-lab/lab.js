@@ -113,18 +113,19 @@ function checkNumber(num) {
   }
 }
 
-//Create a function that: accepts one number, uses a loop to count down from that number to 1 and prints each number
+//Create a function that: accepts one number
 function countdown(num) {
   for (let i = num; i >= 1; i--) {
     console.log(i);
   }
 }
 
-//Create: a variable called studentName, a variable called score Then create a function that checks the score and prints: "Excellent work" for 90 and above "Good job" for 75 to 89 & "Keep practicing" below 75
+//studentname example and score example with condition
 let studentName = "John Doe";
 let score = 85;
 
 function checkScore(score) {
+    score
   if (score >= 90) {
     console.log("Excellent work");
   } else if (score >= 75) {
@@ -134,8 +135,15 @@ function checkScore(score) {
   }
 }
 
-//Create an array of 5 names if you already know arrays. If you do not know arrays yet, just create 5 separate variables, write a loop, print each student name one at a time.
+//array of names and print each name using a loop
 let names = ["Alice", "Bob", "Charlie", "David", "Eve"];
 for (let i = 0; i < names.length; i++) {
   console.log(names[i]);
 }
+
+
+
+// The topic that felt easiest for me was understanding variables and data types. I found it straightforward to grasp the concept of storing different types of information in variables and how to use them in a program. It was also easy to understand the difference between let and const, as well as how to use console.log() for debugging purposes. Overall, I felt comfortable with this topic and was able to apply it effectively in my code.
+// The topic that felt most challenging for me was understanding loops, particularly the different types of loops and when to use each one. I found it a bit tricky to grasp the concept of loop conditions and how to ensure that they eventually become false to avoid infinite loops. Additionally, I had some difficulty in understanding the syntax and structure of for loops and while loops, especially when it comes to nested loops. However, with practice and further study, I was able to improve my understanding of loops and how to use them effectively in my code.
+// Variables, conditionals, functions, and loops are fundamental building blocks of programming that work together to create dynamic and functional programs. Variables are used to store and manipulate data, while conditionals allow us to make decisions based on certain conditions. Functions encapsulate reusable blocks of code that can be called with different inputs, and loops enable us to repeat a block of code multiple times. Together, these concepts allow us to create programs that can perform complex tasks, make decisions, and handle repetitive actions efficiently. For example, we can use variables to store user input, conditionals to determine the flow of the program based on that input, functions to perform specific tasks with the input, and loops to repeat those tasks as needed.
+// One question I still have about JavaScript is how to effectively manage asynchronous code and handle promises. I understand the basics of callbacks and promises, but I would like to learn more about best practices for working with asynchronous operations, such as fetching data from APIs or handling user interactions that involve delays. Additionally, I am curious about how to use async/await syntax to simplify asynchronous code and improve readability.
