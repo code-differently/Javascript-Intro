@@ -72,7 +72,7 @@ function greet(name) {
     console.log("Hello, " + name + "!");
 }
 
-sayHello()("Mesheik");
+greet("Mesheik");
 
 //Task B
 //Create a function called favoriteFood that accepts one parameter and prints: "My favorite food is [parameter]."
@@ -175,7 +175,7 @@ function numberChecker(num) {
 //Mini Challenge 2. Countdown Fuction
 
 function countdown(n) {
-    for (let i = n; i >= 0; i--) {
+    for (let i = n; i >= 1; i--) {
         console.log(i);
     }
 }
@@ -185,10 +185,9 @@ function countdown(n) {
 function studentProgressChecker(score) {
     if (score >= 90) {
         console.log("Excellent Work!");
-    } else if (score >= 75 && score <= 85) {
+    } else if (score >= 75 && score <= 89) {
         console.log("Good Job!");
     } else {
-        (score <= 74) 
         console.log("Keep practicing.");
     } 
     
