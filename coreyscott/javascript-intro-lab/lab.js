@@ -176,4 +176,21 @@ for (let i = 0; i < students.length; i++) {
 }
 
 
+//Reflection Questions
+
+//Which topic felt easiest for you?
+//I felt easier with the variables section
+
+//Which topic felt most challenging?
+//For me it was the loops and arrays...it was more so a refresher that was needed
+
+//How do variables, conditionals, functions, and loops work together in a program?
+//the variables hold the information 
+// the conditionals check to see is the variables meet the condition
+//loops repeats the blocks of code based off the conditions
+//functions encapsulate the structures allowing tasks to be reused
+
+//What is one question you still have about JavaScript?
+//I still want to see how everything ties together from my previous learnings
+
 
