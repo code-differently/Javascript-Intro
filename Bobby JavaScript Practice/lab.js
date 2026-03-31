@@ -88,7 +88,7 @@ for (let i= 1; i<=10; i++){
 }
 
 let evenCount= 2;
-for (let i= 0; i<=20; i++){
+for (let i= 2; i<=20; i++){
  if (evenCount % 2 === 0) {   
     console.log(evenCount);
 }
@@ -103,5 +103,63 @@ while (printNumbers > 0) {
 
 for (let i = 1; i <= 5; i++) {
     console.log("Practice makes progress");
+}
+
+/*
+ 
+1. variables store data, conditionals make decisions with that data, 
+functions organize reusable logic, and loops repeat actions efficiently.
+2. Easiest - conditionals, they are similar to Java
+3. Hardest - Functions since I am not used to them being easy to understand and use compared to Java methods, but I am getting the hang of them.
+4. One question: How do JavaScript functions differ from Java methods in complex cases?
+
+*/
+function numberChecker(num) {
+  if (num > 0) {
+    console.log("Positive");
+  } else if (num < 0) {
+    console.log("Negative");
+  } else {
+    console.log("Zero");
+  }
+}
+numberChecker(5);
+numberChecker(-3);
+numberChecker(0);
+
+
+function countdown(num) {
+  for (let i = num; i >= 1; i--) {
+    console.log(i);
+  }
+}
+countdown(5);
+
+
+let studentName = "Bobby";
+let score = 92;
+
+function progressChecker(score) {
+  if (score >= 90) {
+    console.log(studentName + ": Excellent work");
+  } else if (score >= 75) {
+    console.log(studentName + ": Good job");
+  } else {
+    console.log(studentName + ": Keep practicing");
+  }
+}
+progressChecker(score);
+
+
+let student1 = "Bobby";
+let student2 = "Marcus";
+let student3 = "Tia";
+let student4 = "Jordan";
+let student5 = "Aaliyah";
+
+let roster = [student1, student2, student3, student4, student5];
+
+for (let i = 0; i < roster.length; i++) {
+  console.log(roster[i]);
 }
 
