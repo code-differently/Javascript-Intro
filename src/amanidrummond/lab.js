@@ -4,7 +4,7 @@
 
 
 let name = "Amani";
-let age = 17;
+let age = 27;
 let favoriteColor = "Pink";
 let likesCoding = true;
 
