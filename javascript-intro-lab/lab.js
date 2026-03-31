@@ -115,11 +115,11 @@ for(let i = 2; i <= 20; i += 2){
 }
 
 //Task C
-let h = 5;
+let t = 5;
 
-while(h >= 1){
-    console.log(h);
-    h --;
+while(t >= 1){
+    console.log(t);
+    t --;
 }
 
 //Task D
