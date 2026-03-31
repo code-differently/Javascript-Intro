@@ -117,9 +117,9 @@ for(let i = 2; i <= 20; i += 2){
 //Task C
 let h = 5;
 
-while(h >= 1){
-    console.log(h);
-    h --;
+while(b >= 1){
+    console.log(b);
+    b --;
 }
 
 //Task D
